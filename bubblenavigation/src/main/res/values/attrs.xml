@@ -7,4 +7,14 @@
         <attr name="selectedTextColor" format="color" />
         <attr name="navigationElevation" format="dimension" />
     </declare-styleable>
+    
+    <declare-styleable name="BubbleToggleView">
+        <attr name="bt_colorActive" format="color" />
+        <attr name="bt_colorInactive" format="color" />
+        <attr name="bt_icon" format="reference" />
+        <attr name="bt_iconWidth" format="dimension" />
+        <attr name="bt_iconHeight" format="dimension" />
+        <attr name="bt_title" format="string" />
+        <attr name="bt_shape" format="reference" />
+    </declare-styleable>
 </resources>
