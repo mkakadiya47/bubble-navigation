@@ -26,6 +26,13 @@ android {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
     }
+    
+    publishing {
+        singleVariant('release') {
+            withSourcesJar()
+            withJavadocJar()
+        }
+    }
 }
 
 dependencies {
@@ -45,7 +52,7 @@ afterEvaluate {
                 from components.release
                 groupId = 'com.github.mkakadiya47'
                 artifactId = 'bubble-navigation'
-                version = '1.0.0'
+                version = '1.0.1'
             }
         }
     }
