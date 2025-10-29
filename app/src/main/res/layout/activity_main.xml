@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="Bubble Navigation Demo"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <com.mkakadiya.bubblenavigation.BubbleNavigationView
+        android:id="@+id/bubbleNavigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:backgroundColor="#FFFFFF"
+        app:selectedIconColor="#2196F3"
+        app:unselectedIconColor="#757575"
+        app:selectedTextColor="#2196F3"
+        app:navigationElevation="8dp" />
+
+</RelativeLayout>

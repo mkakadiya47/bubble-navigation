@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="BubbleNavigationView">
+        <attr name="backgroundColor" format="color" />
+        <attr name="selectedIconColor" format="color" />
+        <attr name="unselectedIconColor" format="color" />
+        <attr name="selectedTextColor" format="color" />
+        <attr name="navigationElevation" format="dimension" />
+    </declare-styleable>
+</resources>
