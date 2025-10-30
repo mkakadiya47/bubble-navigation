@@ -53,9 +53,10 @@ afterEvaluate {
     publishing {
         publications {
             release(MavenPublication) {
-                from components.findByName('release')
+                from components.release
                 groupId = 'com.github.mkakadiya47'
                 artifactId = 'bubble-navigation'
+                version = 'v2.0.0'
             }
         }
     }
