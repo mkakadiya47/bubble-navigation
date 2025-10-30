@@ -12,7 +12,7 @@
         limitations under the License.
 */
 
-package com.gauravk.bubblenavigation;
+package com.mkakadiya.bubblenavigation;
 
 import android.animation.ValueAnimator;
 import android.content.Context;
@@ -34,7 +34,7 @@ import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
-import com.gauravk.bubblenavigation.util.ViewUtils;
+import com.mkakadiya.bubblenavigation.util.ViewUtils;
 
 /**
  * BubbleToggleView

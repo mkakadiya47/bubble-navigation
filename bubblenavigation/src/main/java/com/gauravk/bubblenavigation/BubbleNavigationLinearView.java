@@ -11,7 +11,7 @@
         See the License for the specific language governing permissions and
         limitations under the License.
 */
-package com.gauravk.bubblenavigation;
+package com.mkakadiya.bubblenavigation;
 
 import android.content.Context;
 import android.graphics.Typeface;
@@ -26,7 +26,7 @@ import android.view.Gravity;
 import android.view.View;
 import android.widget.LinearLayout;
 
-import com.gauravk.bubblenavigation.listener.BubbleNavigationChangeListener;
+import com.mkakadiya.bubblenavigation.listener.BubbleNavigationChangeListener;
 
 import java.util.ArrayList;
 

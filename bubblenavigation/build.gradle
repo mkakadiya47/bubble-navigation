@@ -3,7 +3,7 @@ plugins {
 }
 
 android {
-    namespace "com.gauravk.bubblenavigation"
+    namespace "com.mkakadiya.bubblenavigation"
     compileSdkVersion 34   // or use rootProject.ext if defined
 
     defaultConfig {

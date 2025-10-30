@@ -1,4 +1,4 @@
-package com.gauravk.bubblenavigation;
+package com.mkakadiya.bubblenavigation;
 
 import static org.junit.Assert.assertEquals;
 

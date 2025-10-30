@@ -1,8 +1,8 @@
-package com.gauravk.bubblenavigation;
+package com.mkakadiya.bubblenavigation;
 
 import android.graphics.Typeface;
 
-import com.gauravk.bubblenavigation.listener.BubbleNavigationChangeListener;
+import com.mkakadiya.bubblenavigation.listener.BubbleNavigationChangeListener;
 
 @SuppressWarnings("unused")
 public interface IBubbleNavigation {

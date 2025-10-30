@@ -11,7 +11,7 @@
         See the License for the specific language governing permissions and
         limitations under the License.
 */
-package com.gauravk.bubblenavigation;
+package com.mkakadiya.bubblenavigation;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -27,7 +27,7 @@ import android.util.Log;
 import android.util.SparseArray;
 import android.view.View;
 
-import com.gauravk.bubblenavigation.listener.BubbleNavigationChangeListener;
+import com.mkakadiya.bubblenavigation.listener.BubbleNavigationChangeListener;
 
 import java.util.ArrayList;
 

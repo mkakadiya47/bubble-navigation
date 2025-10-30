@@ -1,4 +1,4 @@
-package com.gauravk.bubblenavigation;
+package com.mkakadiya.bubblenavigation;
 
 import static org.junit.Assert.assertEquals;
 
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
 
-        assertEquals("com.gauravk.bubblebottombar.test", appContext.getPackageName());
+        assertEquals("com.mkakadiya.bubblebottombar.test", appContext.getPackageName());
     }
 }

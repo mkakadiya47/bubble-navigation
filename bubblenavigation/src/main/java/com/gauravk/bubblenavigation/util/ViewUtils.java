@@ -11,7 +11,7 @@
         See the License for the specific language governing permissions and
         limitations under the License.
 */
-package com.gauravk.bubblenavigation.util;
+package com.mkakadiya.bubblenavigation.util;
 
 import android.content.Context;
 import android.graphics.PorterDuff;
@@ -20,7 +20,7 @@ import android.os.Build;
 import androidx.annotation.Nullable;
 import android.util.TypedValue;
 
-import com.gauravk.bubblenavigation.R;
+import com.mkakadiya.bubblenavigation.R;
 
 public class ViewUtils {
 

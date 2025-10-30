@@ -11,7 +11,7 @@
         See the License for the specific language governing permissions and
         limitations under the License.
 */
-package com.gauravk.bubblenavigation;
+package com.mkakadiya.bubblenavigation;
 
 import android.graphics.Color;
 import android.graphics.drawable.Drawable;
