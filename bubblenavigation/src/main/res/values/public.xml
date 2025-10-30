@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Dimensions -->
+    <public name="default_corner_radii" type="dimen" />
+    <public name="default_badge_corner_radii" type="dimen" />
+    <public name="default_nav_item_padding" type="dimen" />
+    <public name="default_nav_item_text_size" type="dimen" />
+    <public name="default_nav_item_text_padding" type="dimen" />
+    <public name="default_nav_item_title_max_width" type="dimen" />
+    <public name="default_icon_size" type="dimen" />
+    <public name="default_nav_item_badge_padding" type="dimen" />
+    <public name="default_nav_item_badge_text_size" type="dimen" />
+    
+    <!-- Colors -->
+    <public name="default_inactive_shape_color" type="color" />
+    <public name="default_inactive_color" type="color" />
+    <public name="default_shape_inactive_color" type="color" />
+    <public name="default_badge_background_color" type="color" />
+    <public name="default_badge_text_color" type="color" />
+</resources>
