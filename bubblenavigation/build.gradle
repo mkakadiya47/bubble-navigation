@@ -1,15 +1,14 @@
 plugins {
     id 'com.android.library'
-    id 'maven-publish'
 }
 
 android {
-    namespace 'com.mkakadiya.bubblenavigation'
-    compileSdk 34
+    namespace "com.gauravk.bubblenavigation"
+    compileSdkVersion 34   // or use rootProject.ext if defined
 
     defaultConfig {
-        minSdk 21
-        targetSdk 34
+        minSdkVersion 21
+        targetSdkVersion 34
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         consumerProguardFiles "consumer-rules.pro"
@@ -21,39 +20,30 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
-    
+
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
     }
-    
-    publishing {
-        singleVariant('release') {
-            withSourcesJar()
-            withJavadocJar()
-        }
+
+    buildFeatures {
+        buildConfig = false
     }
+}
+
+repositories {
+    google()
+    mavenCentral()
 }
 
 dependencies {
-    implementation 'androidx.appcompat:appcompat:1.6.1'
-    implementation 'com.google.android.material:material:1.10.0'
-    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
-    
-    testImplementation 'junit:junit:4.13.2'
-    androidTestImplementation 'androidx.test.ext:junit:1.1.5'
-    androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
-}
+    implementation fileTree(dir: "libs", include: ["*.jar"])
 
-afterEvaluate {
-    publishing {
-        publications {
-            release(MavenPublication) {
-                from components.release
-                groupId = 'com.github.mkakadiya47'
-                artifactId = 'bubble-navigation'
-                version = '1.0.1'
-            }
-        }
-    }
+    // ✅ Replace old support libs with AndroidX
+    implementation "androidx.appcompat:appcompat:1.7.0"
+    implementation "androidx.constraintlayout:constraintlayout:2.1.4"
+
+    testImplementation "junit:junit:4.13.2"
+    androidTestImplementation "androidx.test.ext:junit:1.2.1"
+    androidTestImplementation "androidx.test.espresso:espresso-core:3.6.1"
 }
